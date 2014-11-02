@@ -355,7 +355,7 @@
 <!-- Option:Right Column for extra info -->
 
 <template id="index_right" name="Right Column"
-        inherit_id="website_blog.blog_post_short" optional="disabled">
+        inherit_id="website_blog.blog_post_short" optional="enabled">
     <xpath expr="//div[@id='main_column']" position="attributes">
         <attribute name="class">col-sm-8</attribute>
     </xpath>
@@ -366,7 +366,7 @@
 
 <!-- Option:Right Column: tags -->
 <template id="opt_blog_rc_tags" name="Tags"
-        inherit_id="website_blog.index_right" optional="disabled">
+        inherit_id="website_blog.index_right" optional="enabled">
     <xpath expr="//div[@id='blog_right_column']" position="inside">
         <section class="mt32">
         <h4>Tags</h4>
@@ -383,7 +383,7 @@
 
 <!-- Option:Right Column: archives -->
 <template id="opt_blog_rc_history" name="Archives"
-        inherit_id="website_blog.index_right" optional="disabled">
+        inherit_id="website_blog.index_right" optional="enabled">
     <xpath expr="//div[@id='blog_right_column']" position="inside">
         <section class="mt32">
         <h4>Archives</h4>
@@ -444,7 +444,7 @@
 
 <!-- Option:Right Column: blogs -->
 <template id="opt_blog_rc_blogs" name="Our Blogs" priority="6"
-        inherit_id="website_blog.index_right" optional="disabled">
+        inherit_id="website_blog.index_right" optional="enabled">
     <xpath expr="//div[@id='blog_right_column']" position="inside">
         <section class="mt32 mb32">
         <h4>Our Blogs</h4>

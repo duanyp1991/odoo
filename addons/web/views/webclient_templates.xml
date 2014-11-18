@@ -4,27 +4,28 @@
 <openerp>
     <data>
         <template id="web.assets_common">
-            <script type="text/javascript" src="/web/static/lib/es5-shim/es5-shim.min.js"></script>
-            <script type="text/javascript" src="/web/static/lib/underscore/underscore.js"></script>
-            <script type="text/javascript" src="/web/static/lib/underscore.string/lib/underscore.string.js"></script>
-            <script type="text/javascript" src="/web/static/lib/datejs/globalization/en-US.js"></script>
-            <script type="text/javascript" src="/web/static/lib/spinjs/spin.js"></script>
+            <!-- replace this url with the CDN server url -->
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/es5-shim/es5-shim.min.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/underscore/underscore.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/underscore.string/lib/underscore.string.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/datejs/globalization/en-US.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/spinjs/spin.js"></script>
 
             <!-- jQuery stuff -->
-            <script type="text/javascript" src="/web/static/lib/jquery/jquery.js"></script>
-            <script type="text/javascript" src="/web/static/lib/jquery.blockUI/jquery.blockUI.js"></script>
-            <script type="text/javascript" src="/web/static/lib/jquery.hotkeys/jquery.hotkeys.js"></script>
-            <script type="text/javascript" src="/web/static/lib/jquery.placeholder/jquery.placeholder.js"></script>
-            <script type="text/javascript" src="/web/static/lib/jquery.timeago/jquery.timeago.js"></script>
-            <script type="text/javascript" src="/web/static/lib/jquery.form/jquery.form.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/jquery/jquery.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/jquery.blockUI/jquery.blockUI.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/jquery.hotkeys/jquery.hotkeys.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/jquery.placeholder/jquery.placeholder.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/jquery.timeago/jquery.timeago.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/jquery.form/jquery.form.js"></script>
 
-            <script type="text/javascript" src="/web/static/lib/jquery.ba-bbq/jquery.ba-bbq.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/jquery.ba-bbq/jquery.ba-bbq.js"></script>
 
-            <script type="text/javascript" src="/web/static/lib/qweb/qweb2.js"></script>
-            <script type="text/javascript" src="/web/static/src/js/openerpframework.js"></script>
-            <script type="text/javascript" src="/web/static/src/js/tour.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/lib/qweb/qweb2.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/src/js/openerpframework.js"></script>
+            <script type="text/javascript" src="http://wvtravelstory.qiniudn.com/web/static/src/js/tour.js"></script>
 
-            <link rel="stylesheet" href="/web/static/lib/fontawesome/css/font-awesome.css"/>
+            <link rel="stylesheet" href="http://wvtravelstory.qiniudn.com/web/static/lib/fontawesome/css/font-awesome.css"/>
         </template>
 
         <template id="jqueryui_conflict" name="jquery.ui.conflict">

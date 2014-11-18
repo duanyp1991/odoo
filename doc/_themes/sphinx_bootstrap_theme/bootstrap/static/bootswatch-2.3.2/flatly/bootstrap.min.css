@@ -1,4 +1,13 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");/*!
+/*@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");*/
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+src: url(http://wvtravelstory.qiniudn.com/0Bl1oqNTjMmBgjhjvqXaufesZW2xOQ-xsNqO47m55DA.woff2) format('woff');
+}
+/*!
+ http://wvtravelstory.qiniudn.com/0Bl1oqNTjMmBgjhjvqXaufesZW2xOQ-xsNqO47m55DA.woff2
+
  * Bootstrap v2.3.2
  *
  * Copyright 2012 Twitter, Inc
